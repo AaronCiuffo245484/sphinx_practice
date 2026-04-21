@@ -1,6 +1,6 @@
 [project]
 name = "footxbar"
-version = "0.1.1"
+version = "0.2.2"
 description = "A toy package for practicing PyPI publishing with Poetry"
 authors = [
     {name = "Aaron Ciuffo", email = "245484@buas.nl"}

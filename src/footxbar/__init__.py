@@ -12,3 +12,7 @@ app = FastAPI()
 @app.get("/add/{number}")
 def add(number: int):
     return {"result": add_one(number)}
+
+@app.get("/version")
+def get_version():
+    return {"version": __version__}

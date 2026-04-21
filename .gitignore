@@ -5,3 +5,5 @@ docs/reference/
 #packaging
 
 dist/**
+
+.env

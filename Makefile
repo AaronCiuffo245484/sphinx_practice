@@ -5,7 +5,7 @@ docs:
 	poetry run sphinx-build -b html -W docs/ docs/_build/html
 
 docs-open:
-	poetry run sphinx-apidoc -f -o docs/reference src/my_package
+	poetry run sphinx-apidoc -f -o docs/reference src/foobar
 	poetry run sphinx-build -b html -W docs/ docs/_build/html
 	open docs/_build/html/index.html
 

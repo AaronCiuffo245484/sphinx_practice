@@ -13,5 +13,5 @@ Install from source
 .. code-block:: bash
 
    git clone <repo-url>
-   cd my_package
+   cd foobar
    poetry install

@@ -14,3 +14,10 @@ tests:
 
 lint:
 	poetry run pre-commit run --all-files
+
+build:
+	poetry run python -m build
+
+upload:
+	poetry run twine upload --repository testpypi dist/*
+

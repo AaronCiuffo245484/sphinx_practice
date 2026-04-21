@@ -1,3 +1,7 @@
 # Sphinx docs
 docs/_build/
 docs/reference/
+
+#packaging
+
+dist/**

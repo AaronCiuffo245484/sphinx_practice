@@ -1,6 +1,6 @@
 [project]
 name = "footxbar"
-version = "0.1.0"
+version = "0.1.1"
 description = "A toy package for practicing PyPI publishing with Poetry"
 authors = [
     {name = "Aaron Ciuffo", email = "245484@buas.nl"}
@@ -14,7 +14,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-dependencies = []
+dependencies = ["fastapi (>=0.136.0,<0.137.0)", "uvicorn (>=0.45.0,<0.46.0)"]
 
 [project.urls]
 Homepage = "https://github.com/AaronCiuffo245484/sphinx_practice"

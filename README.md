@@ -8,20 +8,14 @@ A toy package for practising Docker, GHCR, and Poetry-based releases.
 
 ## Running the API
 
-Clone the repository:
+Download the compose file and start the container:
 
 ```bash
-git clone https://github.com/AaronCiuffo245484/sphinx_practice.git
-cd sphinx_practice
-```
-
-Start the container:
-
-```bash
+curl -O https://raw.githubusercontent.com/AaronCiuffo245484/sphinx_practice/main/docker-compose.yml
 docker compose up
 ```
 
-The API will be available at `http://localhost:8000`.
+Docker will pull the image automatically. The API will be available at `http://localhost:8000`.
 
 ## Testing the API
 
@@ -45,7 +39,7 @@ docker compose down
 
 ## Development
 
-See the [Makefile](Makefile) for available commands:
+Clone the repository and see the [Makefile](Makefile) for available commands:
 
 ```bash
 make help

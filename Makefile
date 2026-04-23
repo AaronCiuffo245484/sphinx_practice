@@ -41,10 +41,6 @@ docker-build:
 		-t $(REGISTRY)/$(IMAGE):latest \
 		--push .
 
-docker-push:
-	docker push $(REGISTRY)/$(IMAGE):$(VERSION)
-	docker push $(REGISTRY)/$(IMAGE):latest
-
 release-patch:
 	poetry version patch
 	git add pyproject.toml

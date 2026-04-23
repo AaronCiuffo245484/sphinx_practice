@@ -3,4 +3,4 @@ services:
   footxbar:
     image: ghcr.io/aaronciuffo245484/footxbar:latest
     ports:
-      - "8000:8000"
+      - "2031:8000"
